@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://openweathermap.org/img/wn/01n@2x.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather JS App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>How's the Weather?</h2>
+      <section class="location">
+        <input type="text" class="input-location" placeholder="Search City" />
+        <button type="button" onclick="getCityName();">
+          <img src="img/search-icon.ico" alt="search-icon" />
+        </button>
+      </section>
+      <section class="weather">
+        <h2>Weather in <span class="city">City</span></h2>
+        <div class="icon-div">
+          <img
+            src="https://openweathermap.org/img/wn/02n@2x.png"
+            alt="icon"
+            class="icon"
+          />
+        </div>
+        <h1 class="temp">37°C</h1>
+        <div class="description">Hot</div>
+        <div>Humidity: <span class="humidity"></span>%</div>
+        <div>Country: <span class="country"></span></div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
