@@ -24,7 +24,7 @@ async function getCityName(e){
     showAlert("No Entity found",'blank')
   }
   else {
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${{apiKey}}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${{secrets.apiKey}}`;
     
 
     await fetch(api)
