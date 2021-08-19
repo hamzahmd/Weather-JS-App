@@ -5,9 +5,9 @@
 
 ## Preview
 
-- The application is hosted on surge:
+The application is hosted on surge:
 
-### (Overview)https://weather-api-app.surge.sh
+[Overview](https://weather-api-app.surge.sh)
 
 ![Preview](https://i.ibb.co/dM6ts24/JS-project.png)
 
